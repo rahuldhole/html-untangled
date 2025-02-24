@@ -1,6 +1,6 @@
 {
-	"name": "html-no-brackets",
-	"displayName": "HTML No Brackets",
+	"name": "untangled-html",
+	"displayName": "Untangled HTML",
 	"description": "Hide angular brackets in HTML tags. example: </div>Hello</div> becomes div Hello /div",
 	"version": "0.0.1",
 	"publisher": "RahulDhole",
@@ -29,7 +29,7 @@
 		"commands": [
 			{
 				"command": "extension.toggleBrackets",
-				"title": "HTML Brackets Togle: Show or Hide Angle Brackets"
+				"title": "Untangled HTML Togle: Show or Hide Angle Brackets"
 			}
 		]
 	}
