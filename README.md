@@ -1,4 +1,4 @@
-# Untangled HTML: Angle Bracket Hide or Show for VS Code
+# Untangled HTML: Angle Brackets Hide or Show for VS Code
 ### Before:
 ```html
 <HTML lang="en">
