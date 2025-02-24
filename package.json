@@ -2,7 +2,7 @@
 	"name": "untangled-html",
 	"displayName": "Untangled HTML",
 	"description": "Hide angular brackets in HTML tags. example: </div>Hello</div> becomes div Hello /div",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "RahulDhole",
 	"private": true,
 	"license": "MIT",
@@ -10,9 +10,7 @@
 		"type": "git",
 		"url": "https://github.com/rahuldhole/untangled-html"
 	},
-	{
-		"icon": "logo.png"
-	},
+	"icon": "logo.png",
 	"engines": {
 		"vscode": "^1.74.0"
 	},
