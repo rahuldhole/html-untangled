@@ -1,25 +1,36 @@
 {
-  "name": "html-no-brackets",
-  "displayName": "html-no-brackets",
-  "description": "Hide angular brackets in HTML tags. example: </div>Hello</div> becomes div Hello /div",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.97.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "html",
-      "aliases": ["HTML", "html"],
-      "extensions": [".html"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "html",
-      "scopeName": "text.html.basic",
-      "path": "./syntaxes/html.tmLanguage.json"
-    }]
-  }
+	"name": "html-no-brackets",
+	"displayName": "HTML No Brackets",
+	"description": "Hide angular brackets in HTML tags. example: </div>Hello</div> becomes div Hello /div",
+	"version": "0.0.1",
+	"publisher": "Rahul Dhoe",
+	"private": true,
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rahuldhole/html-no-brackets"
+	},
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"target": "ES6",
+		"esModuleInterop": true,
+		"skipLibCheck": true
+	},
+	"activationEvents": [],
+	"main": "./src/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.toggleBrackets",
+				"title": "HTML No Brackets: Toggle Angle Brackets"
+			}
+		]
+	}
 }
