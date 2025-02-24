@@ -1,0 +1,25 @@
+{
+  "name": "html-no-brackets",
+  "displayName": "html-no-brackets",
+  "description": "Hide angular brackets in HTML tags. example: </div>Hello</div> becomes div Hello /div",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "html",
+      "aliases": ["HTML", "html"],
+      "extensions": [".html"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "html",
+      "scopeName": "text.html.basic",
+      "path": "./syntaxes/html.tmLanguage.json"
+    }]
+  }
+}
