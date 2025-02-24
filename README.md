@@ -1,65 +1,93 @@
-# html-no-brackets README
+# HTML Angle Bracket Toggle for VS Code
+### Before:
+```html
+<HTML lang="en">
+<HEAD>
+    <META charset="UTF-8">
+    <META name="viewport" content="width=device-width, initial-scale=1.0">
+    <TITLE>Document</TITLE>
+</HEAD>
+<BODY>
+    <H1>Hello, World!</H1>
+    <P>This is a simple HTML page.</P>
+</BODY>
+</HTML>
+```
 
-This is the README for your extension "html-no-brackets". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+### After:
+```js
+HTML lang="en"
+HEAD
+    META charset="UTF-8"
+    META name="viewport" content="width=device-width, initial-scale=1.0"
+    TITLE Document TITLE
+HEAD
+BODY
+    H1 Hello, World! H1
+    SPAN This is a simple HTML page. SPAN
+BODY
+HTML
+```
 
 ---
 
-## Working with Markdown
+## Usage
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Once installed, use the following command to toggle the visibility of HTML angle brackets in your code:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+1. Open the **Command Palette** with `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac).
+2. Search for **Toggle HTML Angle Brackets**.
+3. Click on it to toggle the visibility.
 
-## For more information
+Alternatively, you can assign a custom keybinding to the toggle command for faster access.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+## Overview
+
+**HTML Angle Bracket Toggle** is a simple yet powerful VS Code extension designed to give developers full control over the visibility of HTML angle brackets (`< >`). Whether you're working with plain HTML, Vue, or JSX, this extension helps you declutter your code editor by toggling the visibility of HTML tags, making it easier to focus on the structure and logic of your code.
+
+### Key Features:
+
+- **Toggle HTML angle brackets visibility**: Hide or show HTML, Vue, and JSX tag brackets with a single command.
+- **Works across all file types**: Supports `.html`, `.vue`, and `.jsx` files, ensuring your entire workflow is streamlined.
+- **Customizable**: Automatically adapts to your editor's background color, ensuring a seamless and consistent experience.
+- **Quick status updates**: Get instant feedback on the visibility status of your HTML brackets via the VS Code status bar.
+
+---
+
+## Installation
+
+1. Open **VS Code**.
+2. Go to the **Extensions** view by clicking the Extensions icon in the Activity Bar on the side of the window or using the shortcut `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac).
+3. Search for **HTML Angle Bracket Toggle**.
+4. Click **Install**.
+
+---
+
+
+## How It Works
+
+When enabled, this extension hides the HTML tags (`< >`) in your code editor, leaving behind a cleaner and more readable code layout. It's perfect for focusing on code structure or reading through code without distraction.
+
+When disabled, it restores the HTML tags, making it easier to visually distinguish HTML elements.
+
+---
+
+## Why Use It?
+
+- **Declutter Your Workspace**: Hiding the angle brackets can reduce visual noise and help you focus on the most important parts of your code.
+- **Perfect for Reviewers**: If you're reviewing a large codebase, toggling the tags can help you understand the flow without getting distracted by HTML syntax.
+- **Customizable**: Automatically adjusts to your theme and background colors, making it feel like a native feature of your editor.
+
+---
+
+## Contributions
+
+We welcome contributions! Feel free to open an issue or submit a pull request if you'd like to contribute to this extension. Whether it’s adding new features or fixing bugs, we’d love to have your help.
+
+---
+
+## License
+
+This extension is open source and available under the [MIT License](LICENSE).

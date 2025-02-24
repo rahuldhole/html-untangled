@@ -29,7 +29,7 @@
 		"commands": [
 			{
 				"command": "extension.toggleBrackets",
-				"title": "HTML No Brackets: Toggle Angle Brackets"
+				"title": "HTML Brackets Togle: Show or Hide Angle Brackets"
 			}
 		]
 	}
