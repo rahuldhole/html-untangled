@@ -1,0 +1,5 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="90" font-family="monospace" font-size="16" fill="#FF4136">TITLE</text>
+  <text x="70" y="105" font-family="monospace" font-size="16" fill="blue">Hello World</text>
+  <text x="60" y="120" font-family="monospace" font-size="16" fill="#FF4136">TITLE</text>
+</svg>
