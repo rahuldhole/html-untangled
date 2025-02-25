@@ -1,32 +1,27 @@
 # Untangled HTML: Angle Brackets Hide or Show for VS Code
 ### Before:
 ```html
-<HTML lang="en">
-<HEAD>
-    <META charset="UTF-8">
-    <META name="viewport" content="width=device-width, initial-scale=1.0">
-    <TITLE>Document</TITLE>
-</HEAD>
-<BODY>
-    <H1>Hello, World!</H1>
-    <P>This is a simple HTML page.</P>
-</BODY>
-</HTML>
+<DIV>
+  <H1>
+      Untangled html - VSCode Extension
+  </H1>
+  <SPAN>
+      This is with default HTML Syntax.
+  </SPAN>
+</DIV>
 ```
 
 ### After:
-```js
-HTML lang="en"
-HEAD
-    META charset="UTF-8"
-    META name="viewport" content="width=device-width, initial-scale=1.0"
-    TITLE Document TITLE
-HEAD
-BODY
-    H1 Hello, World! H1
-    SPAN This is a simple HTML page. SPAN
-BODY
-HTML
+```ruby
+DIV
+  H1
+      Untangled html - VSCode Extension
+  H1
+  SPAN
+      This is after hiding the angle brackets.
+      The code remains the same, it just hides the angles.
+  SPAN
+DIV
 ```
 
 ---
